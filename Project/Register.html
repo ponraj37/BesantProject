@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Register Form</h2>
+    <form action="login.html" method="get">
+        <div>
+            <table>
+                <tr><td>Username</td><td><input type="text" id="uname" name="uname"></td></tr>
+                <tr><td>Password</td><td><input type="password" id="pass" name="pass"></td></tr>
+                <tr><td>Email Id</td><td><input type="email" id="email" name="email"></td></tr>
+                <tr><td>DOB</td><td><input type="date" id="dob" name="dob"></td></tr>
+                <tr><td>Mobile No</td><td><input type="number" id="mobileno" name="mobileno"></td></tr>
+                <tr>
+                    <td>Gender</td>
+                        <td><input type="radio" id="gmale" name="gender" value="male">Male
+                            <input type="radio" id="gfmale" name="gender" value="fmale" id="Fmale">Female
+                            <input type="radio" id="gOther" name="gender" value="Other">Others
+                </tr>
+                <tr><td>Address</td><td><textarea name="address" id="address"></textarea></td></tr>
+                <tr>
+                    <td>State</td>
+                        <td>
+                            <select id="State" name="state">
+                                <option>Tamilnadu</option>
+                                <option>Bihar</option>
+                                <option>Chhattisgarh</option>
+                                <option>Punjab</option>
+                                <option>Haryana</option>
+                                <option>Rajasthan</option>
+                                <option>Others</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr><td><input type="reset" value="Cancel"></td><td><input type="submit" value="Register"></td></tr>  
+            </table>
+        </div>
+        <p>Have an account?<a href="login.html"> Login</a></p>
+    </form>
+</body>
+</html>
